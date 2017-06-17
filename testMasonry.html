@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js">
+		
+	</script>
+	<style type="text/css">
+		* { 
+			box-sizing: border-box;
+		}
+
+		body { font-family: sans-serif; }
+
+		/* ---- grid ---- */
+
+		.grid {
+			background: grey;
+			max-width: 1200px;
+		}
+
+		/* clearfix */
+		.grid:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		/* ---- grid-item ---- */
+
+		.grid-item{
+			width: 20%;
+		}
+
+		.grid-item{
+			height: 200px;
+			float: left;
+			background: #D26;
+			border: 2px solid #333;
+			border-color: hsla(0, 0%, 0%, 0.5);
+			border-radius: 5px;
+			overflow: hidden;
+		}
+
+		.grid-item img{
+			width: 100%;
+		}
+
+		.grid-item--width2 { width: 40%; }
+		.grid-item--width3 { width: 60%; }
+		.grid-item--width4 { width: 80%; }
+
+		.grid-item--height2 { height: 400px; }
+		.grid-item--height3 { height: 600px; }
+		.grid-item--height4 { height: 800px; }
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="grid">
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/austin_hunt_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height2">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--width2 grid-item--height2">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height3">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/austin_hunt_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--width3">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height2">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--width2 grid-item--height3">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height2">
+			<img src="Baja WebDev/img/team/andrew_peterson_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/an_shieh_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/austin_hunt_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--width2 grid-item--height2">
+			<img src="Baja WebDev/img/team/austin_hunt_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--width2">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height2">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height3">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height2">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+		<div class="grid-item grid-item--height2">
+			<img src="Baja WebDev/img/team/cindy_lewis_thumbnail.jpg">
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var msnry = new Masonry( '.grid', {
+			columnWidth: ".grid-item",
+		  	itemSelector: '.grid-item',
+		  	percentPosition: true
+		});
+
+	</script>
+
+</body>
+</html>

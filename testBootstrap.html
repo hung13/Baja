@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		body{
+			height: 1200px;
+			position: relative;
+		}
+
+		.navbar-brand{
+			height: 80px;
+		}
+
+		.nav > li > a{
+			padding: 30px;
+		}
+
+		.navbar .navbar-nav li a:hover{
+			background-color: red;
+		}
+
+		.navbar-toggle{
+			padding: 10px;
+			margin: 25px 15px 25px 0px;
+		}
+
+
+	</style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+	
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+					<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        		</button>
+
+				<a href="http://engineering.nyu.edu/" class="navbar-brand">
+					<img style="width: 340px;" src="Baja WebDev/img/logo/tandon_long_white.png">
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavBar">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">about</a></li>
+					<li><a href="#">services</a></li>
+					<li><a href="#">portfolio</a></li>
+					<li><a href="#">pricing</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+		</div>
+	</nav>
+
+	<div class="test" id="about" class="container-fluid"></div>
+	<div class="test" id="services" class="container-fluid"></div>
+	<div class="test" id="portfolio" class="container-fluid"></div>
+	<div class="test" id="pricing" class="container-fluid"></div>
+	<div class="test" id="contact" class="container-fluid"></div>
+
+</body>
+</html>
