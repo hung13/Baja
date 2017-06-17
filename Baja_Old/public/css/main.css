@@ -1,0 +1,799 @@
+/*================ FONTS ============================*/
+
+@font-face
+{
+    font-family: gothamUltra;
+    src: url(../fonts/gothamFonts/gotham/Gotham-Ultra.otf);
+}
+
+@font-face
+{
+    font-family: gothamBlack;
+    src: url(../fonts/gothamFonts/gotham/Gotham-Black.otf);
+}
+
+@font-face
+{
+    font-family: gothamMedium;
+    src: url(../fonts/gothamFonts/gotham/Gotham-Medium.otf);
+}
+
+@font-face
+{
+    font-family: gothamLight;
+    src: url(../fonts/gothamFonts/gotham/Gotham-Light.otf);
+}
+
+@font-face
+{
+    font-family: gothamXLight;
+    src: url(../fonts/gothamFonts/gotham/Gotham-XLight.otf);
+}
+
+/*================================================*/
+
+body
+{
+    font-family: gothamMedium, sans-serif;
+    /*background-color: #57068C;*/
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    overflow-x: hidden;
+}
+
+/*////// NO SCROLL BAR /////////*/
+/*body::-webkit-scrollbar{
+    display: none;
+}*/
+
+.nopadding
+{
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+/*============== NAVBAR ======================*/
+
+.navbar
+{
+    border: 0;
+    font-size: 2em;
+    height: 80px;
+}
+
+/*
+.navbar .container-fluid
+{
+    padding-left: 0;
+    padding-right: 0;
+}*/
+
+.navbar-brand img
+{
+    width: 340px; 
+    height: auto;
+}
+/*
+.navbar .navbar-nav
+{
+    display: block;
+    float: none;
+    vertical-align: top;
+}*/
+
+.navbar .navbar-nav li a
+{
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    outline: none;
+}
+
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li.active a
+{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.navbar-transparent {background-color: rgba(0, 0, 0, 0.85);}
+
+.navbar-toggle
+{
+    border-style: none;
+    padding: 10px;
+    margin: 25px 15px 25px 0px;
+}
+
+/*#sae-navbar
+{
+    border-style: none;
+    font-size: 20px;
+}*/
+/*
+#sae-navbar li
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+/*===================================================================*/
+
+#intro-section
+{
+    /*margin-top: 80px;*/
+    background-image: url(../img/background/3_edited.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center -42%;
+}
+
+/*#intro-section-wrapper
+{
+    position: relative;
+    display: block;
+    border: 10px solid red;
+}*/
+
+/*#intro-section-image
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}*/
+
+#intro-section-tagline
+{
+    padding-top: 20em;
+    padding-bottom: 5em;
+}
+
+#this-is
+{
+    padding-top: 15em;
+    color: black;
+}
+
+#this-is-line-1,
+#this-is-line-2
+{
+    padding-left: 3em;
+    padding-right: 2em;
+    background-color: white;
+    display: inline-block;
+}
+
+#this-is-line-2 {margin-top: 2em;}
+
+#this-is-line-2 strong {color: #57068C;}
+
+#tagline-design
+{
+    margin-left: 67vw;
+    background-color: #55058c;
+}
+
+#tagline-build
+{
+    margin-left: 72vw;
+    background-color: #004f92;
+}
+
+#tagline-compete
+{
+    margin-left: 77vw;
+    background-color: #009fe7;
+}
+
+#tagline-design,
+#tagline-build,
+#tagline-compete
+{
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .5em;
+    text-decoration: none;
+    color: white;
+    display: block;
+    outline: none;
+
+    -webkit-transition: width 1s;
+    transition: transform 0.2s;
+}
+
+#tagline-design:hover,
+#tagline-build:hover,
+#tagline-compete:hover
+{
+    transform: scale(1.2); 
+}
+
+/*========================================================================*/
+
+#first-section
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+
+#about h4 {line-height: 1.5em;}
+
+#pic-break-1
+{
+    background-image: url(../img/background/2_original_edited.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#about-baja
+{
+    padding-top: 6em;
+    padding-bottom: 6em;
+    text-align: center;
+}
+
+#about-baja h1 {padding-bottom: 1em;}
+
+#about-baja h4{line-height: 1.5em;}
+
+.blueItUp {color: #01A0E9;}
+
+#fa-university,
+#fa-cogs,
+#fa-tachometer,
+#fa-users {font-size: 10em;}
+
+/*#blog-section
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../img/GearTrain.jpg);
+    background-size: cover;
+}
+
+#blog-section-header
+{
+    text-align: center;
+}*/
+
+#second-section
+{
+    padding-top: 20em;
+    padding-bottom: 10em;
+    text-align: center;
+
+    background-image: url(../img/team/team_cropped_edited.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 10%;
+}
+
+#second-section-desc h4
+{
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+
+.greenLit {color: #7CC44E;}
+
+#third-section
+{
+    text-align: center;
+    background-color: #7CC44E;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    /*text-align: center;*/
+}
+
+#third-section a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    outline: none;
+}
+
+#third-section i {margin-top: 0.5em;}
+
+#second-section a:hover,
+#third-section a:hover
+{
+    text-decoration: none;
+    color: #57068C;
+}
+
+.btn-default:hover{
+    background-color: white;
+}
+
+#backToTopBtn{
+    display: hidden;
+    opacity: 0;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-radius: 15px;
+}
+
+#backToTopBtn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*============================ TEAM PAGE ==================================*/
+
+#team-wrapper
+{
+    background-color: #57068C;
+    /*padding-top: 100px;*/
+    text-align: center;
+}
+
+#team-header-wrapper
+{
+    background: url(../img/background/7.1.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: black;
+}
+
+#team-header-wrapper a:hover
+{
+    text-decoration: none;
+    color: #57068C;
+}
+
+.team-section
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: underline;
+}
+
+.col-centered
+{
+    display: inline-block;
+    float: none;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
+/*
+#team-people
+{
+    padding-top: 20em;
+}*/
+
+/*#founders-title
+{
+    text-align: center;
+    font-weight: bold;
+}
+*/
+/*#second-section-header
+{
+    text-align: center;
+    font-weight: bold;
+}*/
+
+/*#image-break-1
+{
+    height: 650px;
+    background-image: url(../img/1.JPG);
+    background-size: cover;
+}*/
+
+/*.biopadding
+{
+    padding-top: .5em;
+    padding-bottom: .5em;
+}*/
+
+
+/*.mapwrapper
+{
+    height: 350px;
+}
+*/
+/*#map
+{
+    height: 100%;
+    width: 100%;
+    color: #000;
+    z-index: 0;
+}*/
+/*
+#map-metrotech
+{
+    height: 100%;
+    width: 100%;
+    color: #000;
+    z-index: 0;
+}*/
+/*
+#si-makerspace-img img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+
+/*============== RESPONSIVE AND STUFF ==============*/
+
+/*@media screen and (min-width: 319px)
+{
+    #intro-section-tagline
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #intro-section-tagline h1
+    {
+        font-size: 20px;
+    }
+
+    #tagline-design-wrapper
+    {
+        margin-left: 40vw;
+    }
+
+    #tagline-build-wrapper
+    {
+        margin-left: 45vw;
+    }
+
+    #tagline-compete-wrapper
+    {
+        margin-left: 50vw;
+    }
+
+    #sae-header h3
+    {
+        font-size: .75rem;
+    }
+
+    #first-section
+    {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    #first-section img
+    {
+        max-width: 250px;
+    }
+
+    #pic-break-1
+    {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #this-is
+    {
+        margin-bottom: -2em;
+    }
+}
+
+@media screen and (min-width: 380px)
+{
+    #intro-section-tagline
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #intro-section-tagline h1
+    {
+        font-size: 20px;
+    }
+
+    #tagline-design-wrapper
+    {
+        margin-left: 45vw;
+    }
+
+    #tagline-build-wrapper
+    {
+        margin-left: 50vw;
+    }
+
+    #tagline-compete-wrapper
+    {
+        margin-left: 55vw;
+    }
+
+    #sae-header h3
+    {
+        font-size: .75rem;
+    }
+
+    #first-section
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #first-section img
+    {
+        max-width: 250px;
+    }
+
+    #pic-break-1
+    {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #this-is
+    {
+        margin-bottom: -3em;
+    }
+}
+
+@media screen and (min-width: 572px)
+{
+    #intro-section-tagline
+    {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #intro-section-tagline h1
+    {
+        font-size: 28px;
+    }
+
+    #tagline-design-wrapper
+    {
+        margin-left: 45vw;
+    }
+
+    #tagline-build-wrapper
+    {
+        margin-left: 50vw;
+    }
+
+    #tagline-compete-wrapper
+    {
+        margin-left: 55vw;
+    }
+
+    #sae-header h3
+    {
+        font-size: 1 rem;
+    }
+
+    #first-section
+    {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    #first-section img
+    {
+        max-width: 300px;
+    }
+
+    #pic-break-1
+    {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    #this-is
+    {
+        margin-bottom: -5em;
+    }
+}
+
+@media screen and (min-width: 727px)
+{
+    #intro-section-tagline
+    {
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+
+    #intro-section-tagline h1
+    {
+        font-size: 32px;
+    }
+
+    #tagline-design-wrapper
+    {
+        margin-left: 50vw;
+    }
+
+    #tagline-build-wrapper
+    {
+        margin-left: 55vw;
+    }
+
+    #tagline-compete-wrapper
+    {
+        margin-left: 60vw;
+    }
+
+    #sae-header h3
+    {
+        font-size: 1.25rem;
+    }
+
+    #first-section
+    {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    #first-section img
+    {
+        max-width: 350px;
+    }
+
+    #pic-break-1
+    {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    #this-is
+    {
+        margin-bottom: -8em;
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    #intro-section-tagline
+    {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    #intro-section-tagline h1
+    {
+        font-size: 36px;
+    }
+
+    #tagline-design-wrapper
+    {
+        margin-left: 55vw;
+    }
+
+    #tagline-build-wrapper
+    {
+        margin-left: 60vw;
+    }
+
+    #tagline-compete-wrapper
+    {
+        margin-left: 65vw;
+    }
+
+    #sae-header h3
+    {
+        font-size: 2.25rem;
+    }
+
+    #pic-break-1
+    {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+
+    #this-is
+    {
+        margin-bottom: -10em;
+    }
+
+}
+
+
+@media screen and (min-width: 1279px)
+{
+    #intro-section-tagline
+    {
+        padding-top: 175px;
+        padding-bottom: 175px;
+    }
+
+    #intro-section-tagline h1
+    {
+        font-size: 40px;
+    }
+
+    #tagline-design-wrapper
+    {
+        margin-left: 60vw;
+    }
+
+    #tagline-build-wrapper
+    {
+        margin-left: 65vw;
+    }
+
+    #tagline-compete-wrapper
+    {
+        margin-left: 70vw;
+    }
+
+    #sae-header h3
+    {
+        font-size: 2.5rem;
+    }
+
+    #pic-break-1
+    {
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+    #this-is
+    {
+        margin-bottom: -10em;
+    }
+
+    #second-section
+    {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+}
+
+
+@media screen and (min-width: 1900px)
+{
+    #intro-section-tagline
+    {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+
+    #intro-section-tagline h1
+    {
+        font-size: 48px;
+    }
+
+    #sae-header h3
+    {
+        font-size: 3.0rem;
+    }
+
+    #this-is
+    {
+        margin-bottom: -16em;
+    }
+
+    #second-section
+    {
+        padding-top: 250px;
+        padding-bottom: 250px;
+    }
+}
+
+

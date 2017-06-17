@@ -1,0 +1,50 @@
+
+.masonryGrid{
+	max-width: 1200px;
+	background-color: lightgrey;
+	margin: auto;
+}
+
+.masonryGrid:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+
+/*==== NON RESPONSIVE PICS (AKA PIC SIZE SAME AS WINDOW RESIZES ) ==== */
+
+.masonryItem{
+	width: 200px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	border: 1px solid black;
+	background-color: grey;
+}
+
+.masonryItem-width2 {width: 400px;}
+.masonryItem-width3 {width: 600px;}
+.masonryItem-width4 {width: 800px;}
+
+/*==== RESPONSIVE PICS (AKA PIC RESIZES AS WINDOW RESIZES ) ==== */
+
+/*.masonryItem{
+	width: 20%;
+	height: 200px;
+	overflow: hidden;
+	border: 1px solid black;
+	background-color: grey;
+}
+
+.masonryItem-width2 {width: 40%;}
+.masonryItem-width3 {width: 60%;}*/
+.masonryItem-width4 {width: 80%;}
+
+.masonryItem-height2 {height: 400px;}
+.masonryItem-height3 {height: 600px;}
+.masonryItem-height4 {height: 800px;}
+
+.masonryItem img {
+	width: 100%;
+	padding: 10px;
+}
