@@ -11,7 +11,7 @@
     <link href="css/main.css" rel="stylesheet">
     <title>NYU Tandon Motorsports</title>
 </head>
-<body>
+<body id="myPage">
     <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
         <div class="container-fluid">
 
@@ -34,6 +34,7 @@
                     <li><a href="index.html#about-start">Our Story</a></li>
                     <li><a href="index.html#about-baja-start">Baja</a></li>
                     <li class="active"><a href="#team-start">Team</a></li>
+                    <li><a onclick="alert('Gallery under construction')" href="#">Gallery</a></li>
                     <li><a href="index.html#contact-start">Contact Us</a></li>
                 </ul>
             </div>
@@ -46,7 +47,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 id="second-section-header">Tandon Motorsports Inaugural Team</h1>
+                    <h1 id="second-section-header">Tandon Motorsports Team</h1>
                 </div>
             </div>
             <div class="row" >
@@ -54,7 +55,7 @@
                     <p id="fa-users"><i class="fa fa-users fa-fw"></i></p>
                 </div>
                 <div id="second-section-desc" class="col-md-10">
-                    <h4>With this year being our <strong>inaugural year</strong>, our team has been created from the ground up with <em>every major included</em>. The team utilizes every individual major, from Computer Science to Mechanical Engineering, in order to create an <strong>organized</strong> and <strong>dependable</strong> team with the intention of creating balance. Our diverse team also has experience working for companies such as <strong><a class="blueItUp" href="http://spacex.com">SpaceX</a></strong>, <strong><a class="blueItUp" href="https://www.google.com">Google</a></strong>, and <strong><a class="blueItUp" href="http://boeing.com">Boeing</a></strong>, allowing for practical experience to be applied to our vehicle.</h4>
+                    <h4>With this year being our <strong>inaugural year</strong>, our team has been created from the ground up with <em>every major included</em>. The team utilizes every individual major, from Computer Science to Mechanical Engineering, in order to create an <strong>organized</strong> and <strong>dependable</strong> team with the intention of creating balance. Our diverse team also has experience working for companies such as <strong><a href="http://spacex.com">SpaceX</a></strong>, <strong><a class="blueItUp" href="https://www.google.com">Google</a></strong>, and <strong><a class="blueItUp" href="http://boeing.com">Boeing</a></strong>, allowing for practical experience to be applied to our vehicle.</h4>
                 </div>
             </div>
         </div>
@@ -65,195 +66,231 @@
 
             <div class="row">
                 <div class="col-xs-12">
-                    <h1  class="team-section">Founders</h1>
+                    <h1 class="team-section-header">Founders</h1>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="founder1">
                 <div class="col-sm-3">
                     <img class="img-rounded img-responsive" src="img/team/austin_hunt.jpg" alt="Austin Hunt" />
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-9 founder-desc">
                     <h2>Austin Hunt</h2>
                     <h3>Founder and Captain of NYU Tandon Motorsports</h3>
-                    <h4 style="line-height: 150%">Austin Hunt is a Mechanical Engineering major at NYU and over the past year has brought our team to fruition. After nearly six months at SpaceX, Austin returned to NYU with the new skills and attitude necessary to found this Baja SAE team. Since then, Austin has not allowed the team's ambition to be stifled and constantly applies his practical knowledge to maximize this team.</h4>
+                    <h4>Austin Hunt is a Mechanical Engineering major at NYU and over the past year has brought our team to fruition. After nearly six months at SpaceX, Austin returned to NYU with the new skills and attitude necessary to found this Baja SAE team. Since then, Austin has not allowed the team's ambition to be stifled and constantly applies his practical knowledge to maximize this team.</h4>
                 </div>
             </div>
 
-            <div class="row" style="padding-top: 4em;">
+            <div class="row" id="founder2">
                 <div class="col-sm-3">
                     <img class="img-rounded img-responsive" src="img/team/marcus_cheung.jpg" alt="Marcus Cheung" />
                 </div>
-                <div class="col-sm-9">
+                <div class="col-sm-9 founder-desc">
                     <h2>Marcus Cheung</h2>
                     <h3>Director of External &amp; Internal Media</h3>
-                    <h4 style="line-height: 150%">Marcus Cheung is a Mechanical Engineering and Integrated Digital Media major at NYU and an experienced photographer and content creator. Over the past year, Marcus has been a part of the Welcome Week media team and has created his own car show, dubbed <a href="http://youtube.com/throttlelab">ThrottleLab</a>, on YouTube.</h4>
+                    <h4>Marcus Cheung is a Mechanical Engineering and Integrated Digital Media major at NYU and an experienced photographer and content creator. Over the past year, Marcus has been a part of the Welcome Week media team and has created his own car show, dubbed <a href="http://youtube.com/throttlelab">ThrottleLab</a>, on YouTube.</h4>
                 </div>
             </div>
 
 
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="team-section">Engineering</h1>
+                    <h1 class="team-section-header">Engineering</h1>
                 </div>
             </div>
 
             <div class="row row-centered">
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/laura_ahmetaj.jpg" alt="Laura Ahmetaj" />
-                    <div class="caption">
-                        <h3>Laura Ahmetaj</h3>
-                        <h5>Head of Drivetrain</h5>
-                        <h5>Class of 2018</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/laura_ahmetaj.jpg" alt="Laura Ahmetaj" />
+                        <figcaption>
+                            <h3>Laura Ahmetaj</h3>
+                            <h5>Head of Drivetrain</h5>
+                            <h5>Class of 2018</h5>
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/jules_brenner.jpg" alt="Jules Brenner" />
-                    <div class="caption">
-                        <h3>Jules Brenner</h3>
-                        <h5>Head of Manufacturing</h5>
-                        <h5>Class of 2017</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/jules_brenner.jpg" alt="Jules Brenner" />
+                        <figcaption>
+                            <h3>Jules Brenner</h3>
+                            <h5>Head of Manufacturing</h5>
+                            <h5>Class of 2017</h5>
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/george_dewitt.jpg" alt="George DeWitt" />
-                    <div class="caption">
-                        <h3>George DeWitt</h3>
-                        <h5>Head of Suspension</h5>
-                        <h5>Class of 2018</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/george_dewitt.jpg" alt="George DeWitt" />
+                        <figcaption>
+                            <h3>George DeWitt</h3>
+                            <h5>Head of Suspension</h5>
+                            <h5>Class of 2018</h5>
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/rachel_stolzman.jpg" alt="Rachel Stolzman" />
-                    <div class="caption">
-                        <h3>Rachel Stolzman</h3>
-                        <h5>Lead Driver</h5>
-                        <h5>Class of 2018</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/rachel_stolzman.jpg" alt="Rachel Stolzman" />
+                        <figcaption>
+                            <h3>Rachel Stolzman</h3>
+                            <h5>Lead Driver</h5>
+                            <h5>Class of 2018</h5>
+                        </figcaption>
+                    </figure>
                 </div>
             </div><br />
             <div id="engineering-drawer" class="collapse">
                 <div class="row row-centered">
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/an_shieh.jpg" alt="An Shieh" />
-                        <div class="caption">
-                            <h3>An Shieh</h3>
-                            <h5>Drivetrain</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/an_shieh.jpg" alt="An Shieh" />
+                            <figcaption>
+                                <h3>An Shieh</h3>
+                                <h5>Drivetrain</h5>
+                                <h5>Class of 2018</h5>
+                            </figcaption>
+                        </figure>
                     </div>
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/justin_talevski.jpg" alt="Justin Talevski" />
-                        <div class="caption">
-                            <h3>Justin Talevski</h3>
-                            <h5>Suspension</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/justin_talevski.jpg" alt="Justin Talevski" />
+                                <figcaption>
+                                    <h3>Justin Talevski</h3>
+                                    <h5>Suspension</h5>
+                                    <h5>Class of 2018</h5>
+                                </figcaption>
+                        </figure>
                     </div>
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/jasane_sandrakumar.jpg" alt="Jasane Sandrakumar" />
-                        <div class="caption">
-                            <h3>Jasane Sandrakumar</h3>
-                            <h5>Drivetrain</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/jasane_sandrakumar.jpg" alt="Jasane Sandrakumar" />
+                            <figcaption>
+                                <h3>Jasane Sandrakumar</h3>
+                                <h5>Drivetrain</h5>
+                                <h5>Class of 2018</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/david_kang.jpg" alt="David Kang" />
-                        <div class="caption">
-                            <h3>David Kang</h3>
-                            <h5>Materials &amp; Suspension</h5>
-                            <h5>Class of 2017</h5>
-                        </div>
-                    </div>
-                </div><br />
-
-                <div class="row row-centered">
-                    <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/andrew_peterson.jpg" alt="Andrew Peterson" />
-                        <div class="caption">
-                            <h3>Andrew Peterson</h3>
-                            <h5>Materials</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/sakir_hossain.jpg" alt="Sakir Hossain" />
-                        <div class="caption">
-                            <h3>Sakir Hossain</h3>
-                            <h5>F.E.A.</h5>
-                            <h5>Class of 2017</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/kevin_zhao.jpg" alt="Kevin Zhao" />
-                        <div class="caption">
-                            <h3>Kevin Zhao</h3>
-                            <h5>Suspension</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
-                    </div>
-                    <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/mike_barnes.jpg" alt="Mike Barnes" />
-                        <div class="caption">
-                            <h3>Mike Barnes</h3>
-                            <h5>Frame</h5>
-                            <h5>Class of 2017</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/david_kang.jpg" alt="David Kang" />
+                            <figcaption>
+                                <h3>David Kang</h3>
+                                <h5>Materials &amp; Suspension</h5>
+                                <h5>Class of 2017</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                 </div><br />
 
                 <div class="row row-centered">
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/david_shao.jpg" alt="David Shao" />
-                        <div class="caption">
-                            <h3>David Shao</h3>
-                            <h5>Materials</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/andrew_peterson.jpg" alt="Andrew Peterson" />
+                            <figcaption>
+                                <h3>Andrew Peterson</h3>
+                                <h5>Materials</h5>
+                                <h5>Class of 2018</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/muhammad_arifullah.jpg" alt="Arif" />
-                        <div class="caption"  >
-                            <h3>Muhammad Arifullah</h3>
-                            <h5>Frame</h5>
-                            <h5>Class of 2017</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/sakir_hossain.jpg" alt="Sakir Hossain" />
+                            <figcaption>
+                                <h3>Sakir Hossain</h3>
+                                <h5>F.E.A.</h5>
+                                <h5>Class of 2017</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/shayan_khan.jpg" alt="Shayan Abdul Karim Khan" />
-                        <div class="caption"  >
-                            <h3>Shayan Khan</h3>
-                            <h5>Manufacturing</h5>
-                            <h5>Class of 2019</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/kevin_zhao.jpg" alt="Kevin Zhao" />
+                            <figcaption>
+                                <h3>Kevin Zhao</h3>
+                                <h5>Suspension</h5>
+                                <h5>Class of 2018</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/howard_chien.jpg" alt="Howard Chien" />
-                        <div class="caption"  >
-                            <h3>Howard Chien</h3>
-                            <h5>Frame</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/mike_barnes.jpg" alt="Mike Barnes" />
+                            <figcaption>
+                                <h3>Mike Barnes</h3>
+                                <h5>Frame</h5>
+                                <h5>Class of 2017</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                 </div><br />
 
                 <div class="row row-centered">
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Alessandro Averardi" />
-                        <div class="caption"  >
-                            <h3>Alessandro Averardi</h3>
-                            <h5>Suspension Specialist</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/david_shao.jpg" alt="David Shao" />
+                            <figcaption>
+                                <h3>David Shao</h3>
+                                <h5>Materials</h5>
+                                <h5>Class of 2018</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                     <div class="col-sm-3 col-centered">
-                        <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Taqi Anwar Nadvee" />
-                        <div class="caption"  >
-                            <h3>Taqi Anwar Nadvee</h3>
-                            <h5>Manufacturing</h5>
-                            <h5>Class of 2018</h5>
-                        </div>
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/muhammad_arifullah.jpg" alt="Arif" />
+                            <figcaption>
+                                <h3>Muhammad Arifullah</h3>
+                                <h5>Frame</h5>
+                                <h5>Class of 2017</h5>        
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-3 col-centered">
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/shayan_khan.jpg" alt="Shayan Abdul Karim Khan" />
+                            <figcaption>
+                                <h3>Shayan Khan</h3>
+                                <h5>Manufacturing</h5>
+                                <h5>Class of 2019</h5>        
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-3 col-centered">
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/howard_chien.jpg" alt="Howard Chien" />
+                            <figcaption>
+                                <h3>Howard Chien</h3>
+                                <h5>Frame</h5>
+                                <h5>Class of 2018</h5>        
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div><br />
+
+                <div class="row row-centered">
+                    <div class="col-sm-3 col-centered">
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Alessandro Averardi" />
+                            <figcaption>
+                                <h3>Alessandro Averardi</h3>
+                                <h5>Suspension Specialist</h5>
+                                <h5>Class of 2018</h5>        
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-3 col-centered">
+                        <figure>
+                            <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Taqi Anwar Nadvee" />
+                            <figcaption>
+                                <h3>Taqi Anwar Nadvee</h3>
+                                <h5>Manufacturing</h5>
+                                <h5>Class of 2018</h5>        
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -267,177 +304,250 @@
 
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="team-section">Media</h1>
+                    <h1 class="team-section-header">Media</h1>
                 </div>
             </div>
 
             <div class="row row-centered">
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/marcus_cheung.jpg" alt="Marcus Cheung" />
-                    <div class="caption"  >
-                        <h3>Marcus Cheung</h3>
-                        <h5>Director</h5>
-                        <h5>Class of 2019</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/marcus_cheung.jpg" alt="Marcus Cheung" />
+                        <figcaption>
+                            <h3>Marcus Cheung</h3>
+                            <h5>Director</h5>
+                            <h5>Class of 2019</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/sergey_smirnov.jpg" alt="Sergey Smirnov" />
-                    <div class="caption"  >
-                        <h3>Sergey Smirnov</h3>
-                        <h5>Web development</h5>
-                        <h5>Class of 2017</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/sergey_smirnov.jpg" alt="Sergey Smirnov" />
+                        <figcaption>
+                            <h3>Sergey Smirnov</h3>
+                            <h5>Web development</h5>
+                            <h5>Class of 2017</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/moojig_battsogt.jpg" alt="Moojig Battsogt" />
-                    <div class="caption"  >
-                        <h3>Moojig Battsogt</h3>
-                        <h5>Film &amp; Photo</h5>
-                        <h5>Class of 2018</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/moojig_battsogt.jpg" alt="Moojig Battsogt" />
+                        <figcaption>
+                            <h3>Moojig Battsogt</h3>
+                            <h5>Film &amp; Photo</h5>
+                            <h5>Class of 2018</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/jessica_suplido.jpg" alt="Jessica Suplido" />
-                    <div class="caption"  >
-                        <h3>Jessica Suplido</h3>
-                        <h5>Media</h5>
-                        <h5>Class of 2017</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/jessica_suplido.jpg" alt="Jessica Suplido" />
+                        <figcaption>
+                            <h3>Jessica Suplido</h3>
+                            <h5>Media</h5>
+                            <h5>Class of 2017</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
             </div><br />
 
             <div class="row row-centered">
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Junwoo Shin" />
-                    <div class="caption"  >
-                        <h3>Junwoo Shin</h3>
-                        <h5>Photo &amp; Social Media</h5>
-                        <h5>Class of 2019</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Junwoo Shin" />
+                        <figcaption>
+                            <h3>Junwoo Shin</h3>
+                            <h5>Photo &amp; Social Media</h5>
+                            <h5>Class of 2019</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Jenny Du" />
-                    <div class="caption"  >
-                        <h3>Jenny Du</h3>
-                        <h5>Graphic Design</h5>
-                        <h5>Class of 2019</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Jenny Du" />
+                        <figcaption>
+                            <h3>Jenny Du</h3>
+                            <h5>Graphic Design</h5>
+                            <h5>Class of 2019</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="team-section">Business</h1>
+                    <h1 class="team-section-header">Business</h1>
                 </div>
             </div>
 
             <div class="row row-centered">
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/william_bierds.jpg" alt="William Bierds" />
-                    <div class="caption"  >
-                        <h3>William Bierds</h3>
-                        <h5>Director</h5>
-                        <h5>Class of 2019</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/william_bierds.jpg" alt="William Bierds" />
+                        <figcaption>
+                            <h3>William Bierds</h3>
+                            <h5>Director</h5>
+                            <h5>Class of 2019</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/jeff_ng.jpg" alt="Jeff Ng" />
-                    <div class="caption"  >
-                        <h3>Jeff Ng</h3>
-                        <h5>Head of Finance</h5>
-                        <h5>Class of 2017</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/jeff_ng.jpg" alt="Jeff Ng" />
+                        <figcaption>
+                            <h3>Jeff Ng</h3>
+                            <h5>Head of Finance</h5>
+                            <h5>Class of 2017</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/anthony_shalagin.jpg" alt="Anthony Shalagin" />
-                    <div class="caption"  >
-                        <h3>Anthony Shalagin</h3>
-                        <h5>Advisor</h5>
-                        <h5>Class of 2018</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/anthony_shalagin.jpg" alt="Anthony Shalagin" />
+                        <figcaption>
+                            <h3>Anthony Shalagin</h3>
+                            <h5>Advisor</h5>
+                            <h5>Class of 2018</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
             <div class="row row-centered">
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/karmit_goswami.jpg" alt="Karmit Goswami" />
-                    <div class="caption"  >
-                        <h3>Karmit Goswami</h3>
-                        <h5>Sponsor Relations</h5>
-                        <h5>Class of 2018</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/karmit_goswami.jpg" alt="Karmit Goswami" />
+                        <figcaption>
+                            <h3>Karmit Goswami</h3>
+                            <h5>Sponsor Relations</h5>
+                            <h5>Class of 2018</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Mohammad Ali Sohail" />
-                    <div class="caption"  >
-                        <h3>Mohammad Ali Sohail</h3>
-                        <h5>Sponsor Relations</h5>
-                        <h5>Class of 2018</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/no-img.png" alt="Mohammad Ali Sohail" />
+                        <figcaption>
+                            <h3>Mohammad Ali Sohail</h3>
+                            <h5>Sponsor Relations</h5>
+                            <h5>Class of 2018</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-xs-12">
-                    <h1 class="team-section">Advisors</h1>
+                    <h1 class="team-section-header">Advisors</h1>
                 </div>
             </div>
 
             <div class="row row-centered">
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/cindy_lewis.jpg" alt="Cindy Lewis" />
-                    <div class="caption"  >
-                        <h3>Cindy Lewis</h3>
-                        <h5>Assistant Director, Special Events</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/elizabeth_ensweiler.jpg" alt="Elizabeth Ensweiler" />
+                        <figcaption>
+                            <h3>Elizabeth Ensweiler</h3>
+                            <h5>Director of Enrollment Management</h5>        
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-sm-3 col-centered">
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/cindy_lewis.jpg" alt="Cindy Lewis" />
+                        <figcaption>
+                            <h3>Cindy Lewis</h3>
+                            <h5>Assistant Director, Special Events</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/dzung_luong.jpg" alt="Dzung Luong" />
-                    <div class="caption"  >
-                        <h3>Dzung Luong, PhD</h3>
-                        <h5>Mechanical &amp; Aerospace Engineering</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/dzung_luong.jpg" alt="Dzung Luong" />
+                        <figcaption>
+                            <h3>Dzung Luong, PhD</h3>
+                            <h5>Mechanical &amp; Aerospace Engineering</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/kee_park.jpg" alt="Kee Park" />
-                    <div class="caption"  >
-                        <h3>Kee Park, PhD</h3>
-                        <h5>Machine Design</h5>
-                    </div>
-                </div>
+                
             </div>
             <div class="row row-centered">
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/jennifer_piro.jpg" alt="Jennifer Piro" />
-                    <div class="caption"  >
-                        <h3>Jennifer Piro</h3>
-                        <h5>Manager of Academic Advising &amp; Student Services</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/kee_park.jpg" alt="Kee Park" />
+                        <figcaption>
+                            <h3>Kee Park, PhD</h3>
+                            <h5>Machine Design</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
                 <div class="col-sm-3 col-centered">
-                    <img class="img-circle img-responsive" src="img/team/elizabeth_ensweiler.jpg" alt="Elizabeth Ensweiler" />
-                    <div class="caption"  >
-                        <h3>Elizabeth Ensweiler</h3>
-                        <h5>Director of Enrollment Management</h5>
-                    </div>
+                    <figure>
+                        <img class="img-circle img-responsive" src="img/team/jennifer_piro.jpg" alt="Jennifer Piro" />
+                        <figcaption>
+                            <h3>Jennifer Piro</h3>
+                            <h5>Manager of Academic Advising &amp; Student Services</h5>        
+                        </figcaption>
+                    </figure>
                 </div>
+                
             </div>
 
         </div>
         <div class="container" style="margin-top:10em;">
-            <img src="img/team/team_original.jpg" class="img-rounded img-responsive" />
-            <div class="row"  >
-                <h4>The team in September 2016.</h4>
-            </div>
+            <figure>
+                <img src="img/team/team_original_cropped_edited.jpg" class="img-rounded img-responsive" />
+                <figcaption>
+                    <h4>The team in September 2016.</h4>        
+                </figcaption>
+            </figure>
         </div>
         </div>
     </div>
 
-    <script>
+    <button id="backToTopBtn" title="Go to top">
+      <a href="#myPage"><i id="backToTop" class="fa fa-chevron-up fa-fw fa-2x"></i></a>
+    </button>
 
-    $("#engineering-chevron").click(function () {
-        $(this).toggleClass("fa-chevron-down");
-        $(this).toggleClass("fa-chevron-up");
-    });
+    <script>
+    // smooth scroll
+        $(document).ready(function(){
+          $("button a[href='#myPage']").on("click", function(event){
+            var scrollDuration =2000
+
+            if (this.hash != ""){
+              event.preventDefault();
+              var hash = this.hash;          
+
+              $("html, body").animate({
+                scrollTop: $(hash).offset().top
+              }, scrollDuration, function(){
+                window.location.hash = hash;
+              });
+            } //end of if
+
+          });
+        }); //end of smooth scroll
+
+        window.onscroll = function(){ scrollFunction()};
+
+        function scrollFunction(){
+          if (document.body.scrollTop > 500 && document.body.scrollTop < 1000){
+            document.getElementById("backToTopBtn").style.display = "block";
+            document.getElementById("backToTopBtn").style.opacity = "0.5";
+          } else if (document.body.scrollTop > 1000){
+            document.getElementById("backToTopBtn").style.opacity = "1";
+          } else{
+            document.getElementById("backToTopBtn").style.display = "none";
+          }
+        }
+
+        $('#engineering-chevron').click(function () {
+            $(this).toggleClass('fa-chevron-down');
+            $(this).toggleClass('fa-chevron-up');
+        });
+    
 
     </script>
 </body>

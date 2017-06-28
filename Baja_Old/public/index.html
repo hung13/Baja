@@ -11,7 +11,8 @@
     <link href="css/main.css" rel="stylesheet">
     <title>NYU Tandon Motorsports</title>
 </head>
-<body  id="myPage" data-spy="scroll" data-target="#sae-navbar" data-offset="100">
+
+<body id="myPage" data-spy="scroll" data-target="#sae-navbar" data-offset="0">
     <nav class="navbar navbar-inverse navbar-fixed-top navbar-transparent">
         <div class="container-fluid">
 
@@ -34,6 +35,7 @@
                     <li><a href="#about-start">Our Story</a></li>
                     <li><a href="#about-baja-start">Baja</a></li>
                     <li><a href="team.html">Team</a></li>
+                    <li><a onclick="alert('Gallery under construction')" href="#">Gallery</a></li>
                     <li><a href="#contact-start">Contact Us</a></li>
                 </ul>
             </div>
@@ -48,8 +50,12 @@
                   <h1><a href="#about-baja-start" id="tagline-compete">Compete</a></h1>
                 <div id="this-is">
                     <div id="this-is-line-1"><h2>This is</h2></div><br />
-                    <div id="this-is-line-2"><h1><strong>NYU Tandon</strong> Motorsports</h1></div>
-    <div id="about-start"></div>
+                    <div id="this-is-line-2">
+                        <h1><strong class="purp">NYU Tandon</strong> Motorsports</h1>
+                    </div>
+
+                    <div id="about-start"></div>
+
                 </div>
             </div>
         </div>
@@ -70,15 +76,15 @@
         <div class="container">
             <h1>About <strong class="blueItUp">Baja SAE</strong></h1>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0">
                     <p id="fa-university"><i class="fa fa-university fa-fw"></i></p>
                     <h4>Baja SAE is an <span class="blueItUp">intercollegiate competition</span> pitting teams against each other with the objective of designing and constructing the best off-road vehicle.</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0">
                     <p id="fa-cogs"><i class="fa fa-cogs fa-fw"></i></p>
                     <h4>At its heart, Baja SAE is a competition in which <span class="blueItUp">multiple fields of engineering</span> are tapped in order to create the most realistic automotive challenge.</h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-4 col-md-offset-0">
                     <p id="fa-tachometer"><i class="fa fa-tachometer fa-fw"></i></p>
                     <h4>Each team participating is required to create an <span class="blueItUp">off-road vehicle that would survive</span> the severe punishment of rough terrain with minimal cost in an effort to gain a contract for 4000 units.</h4>
                 </div>
@@ -103,10 +109,10 @@
                 </div>
             </div>
             <div class="row" >
-                <div class="col-md-2">
+                <div class="col-sm-2 col-md-2">
                     <p id="fa-users"><i class="fa fa-users fa-fw"></i></p>
                 </div>
-                <div id="second-section-desc" class="col-md-10">
+                <div id="second-section-desc" class="col-sm-10 col-md-10">
                     <h4>With this year being our <strong>inaugural year</strong>, our team has been created from the ground up with <em>every major included</em>. The team utilizes every individual major, from Computer Science to Mechanical Engineering, in order to create an <strong>organized</strong> and <strong>dependable</strong> team with the intention of creating balance. Our diverse team also has experience working for companies such as <strong><a class="greenLit" href="http://spacex.com">SpaceX</a></strong>, <strong><a class="greenLit" href="https://www.google.com">Google</a></strong>, and <strong><a class="greenLit" href="http://boeing.com">Boeing</a></strong>, allowing for practical experience to be applied to our vehicle.</h4>
                 </div>
             </div>
@@ -121,24 +127,48 @@
     <div id="contact-start"></div>
     <div id="third-section">
         <div class="container" id="contact">
-            <h1 id="third-section-header">Contact</h1>
+            <h1 id="third-section-header">Contact Us</h1>
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-10 col-md-offset-1">
                         <h3>Currently, we are looking for sponsors interested in helping our team both intellectually and economically! Please reach out to us if you are interested, and we would be happy to discuss this further.</h3>
-                        <a href="https://twitter.com/nyumotorsports">
-                          <i class="fa fa-twitter fa-fw fa-4x"></i>
-                        </a>
-                        <a href="https://instagram.com/nyutandonmotorsports">
-                          <i class="fa fa-instagram fa-fw fa-4x"></i>
-                        </a>
-                        <a href="https://www.facebook.com/nyutandonsae">
-                          <i class="fa fa-facebook fa-fw fa-4x"></i>
-                        </a>
-                        <a href="mailto:brooklynbajateam@gmail.com">
-                          <i class="fa fa-envelope-o fa-fw fa-4x"></i>
-                        </a>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3" id="contactInfo">
+                        <div class="col-xs-5 col-sm-5 col-md-5">
+                            <img class="img-circle img-responsive" src="img/team/william_bierds.jpg" alt="William Bierds"/>
+                        </div>
+
+                        <div class="col-xs-7 col-sm-7 col-md-7">
+                            <h3>William Bierds</h3>
+                            <h4>Director of Bussiness</h4>
+                            <h4>
+                                <a href="mailto:brooklynbajateam@gmail.com">
+                                    brooklynbajateam@gmail.com
+                                </a>
+                            </h4>
+
+                            <div class="col-md-12" id="socialMedia">
+                                <a href="https://twitter.com/nyumotorsports">
+                                    <i class="fa fa-twitter fa-fw fa-4x"></i>
+                                </a>                            
+                                <a href="https://www.facebook.com/nyutandonsae">
+                                    <i class="fa fa-facebook fa-fw fa-4x"></i>
+                                </a>
+                                <a href="https://instagram.com/nyutandonmotorsports">
+                                    <i class="fa fa-instagram fa-fw fa-4x"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+                        
+
                 <!-- <div class="row">
                     <div class="col-md-6">
                         <div class="fb-page" data-href="https://www.facebook.com/nyutandonsae" data-tabs="timeline" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/nyutandonsae" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/nyutandonsae">NYU Tandon Society of Automotive Engineers</a></blockquote></div>
@@ -150,9 +180,9 @@
         </div>
     </div>
 
-    <button id="backToTopBtn" title="Go to top">
-      <a href="#myPage"><i id="backToTop" class="fa fa-chevron-up fa-fw fa-2x"></i></a>
-    </button>
+    <!-- <button id="backToTopBtn" title="Go to top">
+        <a href="#myPage"><i id="backToTop" class="fa fa-chevron-up fa-fw fa-2x"></i></a>
+    </button> -->
 
     <!-- <div class="container-fluid nopadding" style="background-color: #009fe7;">
         <div class="row nopadding">
@@ -182,48 +212,37 @@
 
     <script>
 
-    /* Bootstrap scrollspy setups */
-    $('body').scrollspy({
-      target: '#sae-navbar'
-    });
-
     // smooth scroll
     $(document).ready(function(){
-      $(".navbar a, button a[href='#myPage'], h1 a[href='#about-baja-start'").on("click", function(event){
-        var scrollDuration;
+        $(".navbar a, button a[href='#myPage'], h1 a[href='#about-baja-start'").on("click", function(event){
+            var scrollDuration = 500;
 
-        if (event.target.id == "backToTop"){
-          scrollDuration = 2000;
-        } else{
-          scrollDuration = 500;
-        }
+            if (this.hash != ""){
+                event.preventDefault();
+                var hash = this.hash;          
 
-        if (this.hash != ""){
-          event.preventDefault();
-          var hash = this.hash;          
+                $("html, body").animate({
+                    scrollTop: $(hash).offset().top
+                }, scrollDuration);
+                return false;
+            } //end of if
 
-          $("html, body").animate({
-            scrollTop: $(hash).offset().top
-          }, scrollDuration, function(){
-            window.location.hash = hash;
-          });
-        } //end of if
-
-      });
+        });
     }); //end of smooth scroll
 
-    window.onscroll = function(){ scrollFunction()};
+    // window.onscroll = function(){ scrollFunction()};
 
-    function scrollFunction(){
-      if (document.body.scrollTop > 500 && document.body.scrollTop < 1000){
-        document.getElementById("backToTopBtn").style.display = "block";
-        document.getElementById("backToTopBtn").style.opacity = "0.5";
-      } else if (document.body.scrollTop > 1000){
-        document.getElementById("backToTopBtn").style.opacity = "1";
-      } else{
-        document.getElementById("backToTopBtn").style.display = "none";
-      }
-    }
+    // function scrollFunction(){
+    //   if (document.body.scrollTop > 500 && document.body.scrollTop < 1000){
+    //     document.getElementById("backToTopBtn").style.display = "block";
+    //     document.getElementById("backToTopBtn").style.opacity = "0.5";
+    //   } else if (document.body.scrollTop > 1000){
+    //     document.getElementById("backToTopBtn").style.opacity = "1";
+    //   } else{
+    //     document.getElementById("backToTopBtn").style.display = "none";
+    //   }
+    // }
+    
 
     // function backToTop(){
     //   document.body.scrollTop = 0;
